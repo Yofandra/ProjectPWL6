@@ -16,6 +16,7 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
+        //praktikum2
         DB::table('users')->insert([
             'name' => 'Administrator',
             'email' => 'admin@admin.com',
